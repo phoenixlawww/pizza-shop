@@ -5,7 +5,19 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
+    'react-app',
+    'react-app/jest',
     'standard'
+  ],
+  overrides: [
+    {
+      files: [
+        '**/*.stories.*'
+      ],
+      rules: {
+        'import/no-anonymous-default-export': 'off'
+      }
+    }
   ],
   parserOptions: {
     ecmaFeatures: {
