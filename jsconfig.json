@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": "src",
+    "paths": {
+      "common/*": ["./common/*"],
+      "contexts/*": ["./contexts/*"],
+      "helpers/*": ["./helpers/*"],
+      "hoc/*": ["./hoc/*"],
+      "hooks/*": ["./hooks/*"],
+      "components/*": ["./components/*"],
+      "styles/*": ["./styles/*"],
+      "utils/*": ["./utils/*"],
+      "storybook/*": ["./storybook/*"]
+    }
+  },
+  "exclude": ["node_modules", "build"]
+}

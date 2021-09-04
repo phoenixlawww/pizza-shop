@@ -11,9 +11,7 @@ module.exports = {
   ],
   overrides: [
     {
-      files: [
-        '**/*.stories.*'
-      ],
+      files: ['**/*.stories.*'],
       rules: {
         'import/no-anonymous-default-export': 'off'
       }
@@ -26,9 +24,9 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module'
   },
-  plugins: [
-    'react'
-  ],
+  plugins: ['react'],
   rules: {
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off'
   }
 }
