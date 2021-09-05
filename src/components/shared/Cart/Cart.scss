@@ -6,7 +6,7 @@
   align-items: stretch;
   justify-content: flex-start;
   padding: 10px;
-  background-color: #fafafa;
+  background-color: $extra-light-grey;
   border-radius: 10px;
 
   > .cart-empty {
@@ -46,7 +46,7 @@
         width: 20px;
         height: 20px;
         cursor: pointer;
-        background-color: $light-grey;
+        background-color: $grey;
         border-radius: 50%;
 
         &::before,
@@ -58,7 +58,7 @@
           width: 2px;
           height: 80%;
           content: "";
-          background-color: #fff;
+          background-color: $white;
         }
         &::before {
           transform: rotateZ(-45deg);
@@ -90,7 +90,7 @@
     column-gap: 10px;
     font-weight: 600;
     text-align: right;
-    border-top: 1px dashed black;
+    border-top: 1px dashed $black;
 
     > .cart-amount {
       min-width: 55px;
