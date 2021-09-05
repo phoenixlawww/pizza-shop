@@ -89,8 +89,7 @@
     "coveragePathIgnorePatterns": [
       "__snapshots__",
       "src/contexts/",
-      "src/mock-data/",
-      "src/components/view/App"
+      "src/mock-data/"
     ]
   }
 }
