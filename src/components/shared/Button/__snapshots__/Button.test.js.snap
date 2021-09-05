@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<body>
+  <div>
+    <button
+      class="s-button s-button-primary"
+    >
+      test label
+    </button>
+  </div>
+</body>
+`;

@@ -78,5 +78,19 @@
     "*.{json,md}": [
       "prettier --write"
     ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*",
+      "!src/index.js",
+      "!src/**/index.js",
+      "!src/**/*.stories.js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "__snapshots__",
+      "src/contexts/",
+      "src/mock-data/",
+      "src/components/view/App"
+    ]
   }
 }

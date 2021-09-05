@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<body
+  class="ReactModal__Body--open"
+>
+  <div
+    data-react-modal-body-trap=""
+    style="position: absolute; opacity: 0;"
+    tabindex="0"
+  />
+  <div />
+  <div
+    data-react-modal-body-trap=""
+    style="position: absolute; opacity: 0;"
+    tabindex="0"
+  />
+  <div
+    class="ReactModalPortal"
+  >
+    <div
+      class="ReactModal__Overlay"
+      style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; background-color: rgba(0, 0, 0, 0.2);"
+    >
+      <div
+        aria-modal="true"
+        class="ReactModal__Content"
+        role="dialog"
+        style="position: absolute; top: 40px; left: 40px; right: 40px; bottom: 40px; border: 1px solid #ccc; background: rgb(255, 255, 255); overflow: auto; border-radius: 4px; outline: none; padding: 20px; max-width: 600px; margin: 0px auto;"
+        tabindex="-1"
+      >
+        <form>
+          <div
+            class="s-product-modal"
+          >
+            <div
+              class="product-options"
+            >
+              <div
+                class="product-option"
+              >
+                <h5>
+                  topping
+                </h5>
+                <div
+                  class="product-sub-option-list multiple"
+                >
+                  <div
+                    class="product-sub-option"
+                  >
+                    <input
+                      id="topping-1"
+                      name="topping"
+                      type="checkbox"
+                      value="topping-1"
+                    />
+                    <label
+                      for="topping-1"
+                    >
+                      Pizza Topping #1
+                    </label>
+                  </div>
+                  <div
+                    class="product-sub-option"
+                  >
+                    <input
+                      id="topping-2"
+                      name="topping"
+                      type="checkbox"
+                      value="topping-2"
+                    />
+                    <label
+                      for="topping-2"
+                    >
+                      Pizza Topping #2
+                    </label>
+                  </div>
+                  <div
+                    class="product-sub-option"
+                  >
+                    <input
+                      id="topping-3"
+                      name="topping"
+                      type="checkbox"
+                      value="topping-3"
+                    />
+                    <label
+                      for="topping-3"
+                    >
+                      Pizza Topping #3
+                    </label>
+                  </div>
+                  <div
+                    class="product-sub-option"
+                  >
+                    <input
+                      id="topping-4"
+                      name="topping"
+                      type="checkbox"
+                      value="topping-4"
+                    />
+                    <label
+                      for="topping-4"
+                    >
+                      Pizza Topping #4
+                    </label>
+                  </div>
+                  <div
+                    class="product-sub-option"
+                  >
+                    <input
+                      id="topping-5"
+                      name="topping"
+                      type="checkbox"
+                      value="topping-5"
+                    />
+                    <label
+                      for="topping-5"
+                    >
+                      Pizza Topping #5
+                    </label>
+                  </div>
+                  <div
+                    class="product-sub-option"
+                  >
+                    <input
+                      id="topping-6"
+                      name="topping"
+                      type="checkbox"
+                      value="topping-6"
+                    />
+                    <label
+                      for="topping-6"
+                    >
+                      Pizza Topping #6
+                    </label>
+                  </div>
+                  <div
+                    class="product-sub-option"
+                  >
+                    <input
+                      id="topping-7"
+                      name="topping"
+                      type="checkbox"
+                      value="topping-7"
+                    />
+                    <label
+                      for="topping-7"
+                    >
+                      Pizza Topping #7
+                    </label>
+                  </div>
+                  <div
+                    class="product-sub-option"
+                  >
+                    <input
+                      id="topping-8"
+                      name="topping"
+                      type="checkbox"
+                      value="topping-8"
+                    />
+                    <label
+                      for="topping-8"
+                    >
+                      Pizza Topping #8
+                    </label>
+                  </div>
+                  <div
+                    class="product-sub-option"
+                  >
+                    <input
+                      id="topping-9"
+                      name="topping"
+                      type="checkbox"
+                      value="topping-9"
+                    />
+                    <label
+                      for="topping-9"
+                    >
+                      Pizza Topping #9
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="product-option"
+              >
+                <h5>
+                  size
+                </h5>
+                <div
+                  class="product-sub-option-list single"
+                >
+                  <div
+                    class="product-sub-option"
+                  >
+                    <input
+                      id="size-s"
+                      name="size"
+                      type="radio"
+                      value="size-s"
+                    />
+                    <label
+                      for="size-s"
+                    >
+                      Pizza Size #1
+                    </label>
+                  </div>
+                  <div
+                    class="product-sub-option"
+                  >
+                    <input
+                      id="size-m"
+                      name="size"
+                      type="radio"
+                      value="size-m"
+                    />
+                    <label
+                      for="size-m"
+                    >
+                      Pizza Size #2
+                    </label>
+                  </div>
+                  <div
+                    class="product-sub-option"
+                  >
+                    <input
+                      id="size-l"
+                      name="size"
+                      type="radio"
+                      value="size-l"
+                    />
+                    <label
+                      for="size-l"
+                    >
+                      Pizza Size #3
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="action-buttons"
+            >
+              <button
+                class="s-button action-btn s-button-primary"
+                disabled=""
+                type="submit"
+              >
+                Add To Basket
+              </button>
+              <button
+                class="s-button action-btn s-button-secondary"
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+`;

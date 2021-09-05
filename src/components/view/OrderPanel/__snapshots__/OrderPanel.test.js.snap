@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="order-panel"
+    >
+      <div
+        class="loading-screen"
+      >
+        Loading
+      </div>
+      <div
+        class="cart-wrapper"
+      >
+        <div
+          class="s-cart cart"
+        >
+          <div
+            class="cart-empty"
+          >
+            No Items in your basket
+          </div>
+          <div
+            class="cart-total"
+          >
+            <div>
+              Total
+            </div>
+            <div
+              class="cart-amount"
+            >
+              $0
+            </div>
+          </div>
+          <button
+            class="s-button s-button-primary"
+            disabled=""
+          >
+            Checkout
+          </button>
+        </div>
+        <button
+          class="s-button empty-cart-btn s-button-link"
+          disabled=""
+        >
+          Empty Basket
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`renders list correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="order-panel"
+    >
+      <div
+        class="product-list"
+      >
+        <div
+          class="s-product-card product-card"
+        >
+          <div
+            class="product-img-wrapper"
+          >
+            <img
+              alt=""
+              src="/pizza.jpg"
+            />
+          </div>
+          <h4
+            class="product-name"
+          >
+            Pizza A - $99
+          </h4>
+          <button
+            class="s-button action-btn s-button-primary"
+          >
+            Choose
+          </button>
+        </div>
+        <div
+          class="s-product-card product-card"
+        >
+          <div
+            class="product-img-wrapper"
+          >
+            <img
+              alt=""
+              src="/pizza.jpg"
+            />
+          </div>
+          <h4
+            class="product-name"
+          >
+            Pizza B - $99
+          </h4>
+          <button
+            class="s-button action-btn s-button-primary"
+          >
+            Choose
+          </button>
+        </div>
+        <div
+          class="s-product-card product-card"
+        >
+          <div
+            class="product-img-wrapper"
+          >
+            <img
+              alt=""
+              src="/pizza.jpg"
+            />
+          </div>
+          <h4
+            class="product-name"
+          >
+            Pizza C - $99
+          </h4>
+          <button
+            class="s-button action-btn s-button-primary"
+          >
+            Choose
+          </button>
+        </div>
+        <div
+          class="s-product-card product-card"
+        >
+          <div
+            class="product-img-wrapper"
+          >
+            <img
+              alt=""
+              src="/pizza.jpg"
+            />
+          </div>
+          <h4
+            class="product-name"
+          >
+            Pizza D - $99
+          </h4>
+          <button
+            class="s-button action-btn s-button-primary"
+          >
+            Choose
+          </button>
+        </div>
+        <div
+          class="s-product-card product-card"
+        >
+          <div
+            class="product-img-wrapper"
+          >
+            <img
+              alt=""
+              src="/pizza.jpg"
+            />
+          </div>
+          <h4
+            class="product-name"
+          >
+            Pizza E - $99
+          </h4>
+          <button
+            class="s-button action-btn s-button-primary"
+          >
+            Choose
+          </button>
+        </div>
+        <div
+          class="s-product-card product-card"
+        >
+          <div
+            class="product-img-wrapper"
+          >
+            <img
+              alt=""
+              src="/pizza.jpg"
+            />
+          </div>
+          <h4
+            class="product-name"
+          >
+            Pizza F - $99
+          </h4>
+          <button
+            class="s-button action-btn s-button-primary"
+          >
+            Choose
+          </button>
+        </div>
+      </div>
+      <div
+        class="cart-wrapper"
+      >
+        <div
+          class="s-cart cart"
+        >
+          <div
+            class="cart-empty"
+          >
+            No Items in your basket
+          </div>
+          <div
+            class="cart-total"
+          >
+            <div>
+              Total
+            </div>
+            <div
+              class="cart-amount"
+            >
+              $0
+            </div>
+          </div>
+          <button
+            class="s-button s-button-primary"
+            disabled=""
+          >
+            Checkout
+          </button>
+        </div>
+        <button
+          class="s-button empty-cart-btn s-button-link"
+          disabled=""
+        >
+          Empty Basket
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+`;

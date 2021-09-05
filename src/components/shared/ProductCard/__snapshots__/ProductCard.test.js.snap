@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="s-product-card"
+    >
+      <div
+        class="product-img-wrapper"
+      >
+        <img
+          alt=""
+          src="/pizza.jpg"
+        />
+      </div>
+      <h4
+        class="product-name"
+      >
+        Pizza A - $99
+      </h4>
+      <button
+        class="s-button action-btn s-button-primary"
+      >
+        Choose
+      </button>
+    </div>
+  </div>
+</body>
+`;

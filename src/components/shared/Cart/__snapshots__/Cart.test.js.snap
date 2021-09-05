@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders cart item correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="s-cart"
+    >
+      <div
+        class="cart-items"
+      >
+        <div
+          class="cart-item"
+        >
+          <div
+            class="item-delete-btn"
+          />
+          <div
+            class="item-detail-container"
+          >
+            <div
+              class="item-name"
+            >
+              1 x Pizza A
+            </div>
+            <div
+              class="item-options"
+            >
+              Topping #1, Small
+            </div>
+          </div>
+          <div
+            class="total-item-amount"
+          >
+            $99
+          </div>
+        </div>
+      </div>
+      <div
+        class="cart-total"
+      >
+        <div>
+          Total
+        </div>
+        <div
+          class="cart-amount"
+        >
+          $99
+        </div>
+      </div>
+      <button
+        class="s-button s-button-primary"
+      >
+        Checkout
+      </button>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`renders empty cart correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="s-cart"
+    >
+      <div
+        class="cart-empty"
+      >
+        No Items in your basket
+      </div>
+      <div
+        class="cart-total"
+      >
+        <div>
+          Total
+        </div>
+        <div
+          class="cart-amount"
+        >
+          $0
+        </div>
+      </div>
+      <button
+        class="s-button s-button-primary"
+        disabled=""
+      >
+        Checkout
+      </button>
+    </div>
+  </div>
+</body>
+`;
