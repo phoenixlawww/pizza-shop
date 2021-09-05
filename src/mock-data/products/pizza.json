@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "productCode": "pizza-1",
+      "name": "Pizza A",
+      "image": "pizza.jpg",
+      "unitPrice": 99
+    },
+    {
+      "productCode": "pizza-2",
+      "name": "Pizza B",
+      "image": "pizza.jpg",
+      "unitPrice": 99
+    },
+    {
+      "productCode": "pizza-3",
+      "name": "Pizza C",
+      "image": "pizza.jpg",
+      "unitPrice": 99
+    },
+    {
+      "productCode": "pizza-4",
+      "name": "Pizza D",
+      "image": "pizza.jpg",
+      "unitPrice": 99
+    },
+    {
+      "productCode": "pizza-5",
+      "name": "Pizza E",
+      "image": "pizza.jpg",
+      "unitPrice": 99
+    },
+    {
+      "productCode": "pizza-6",
+      "name": "Pizza F",
+      "image": "pizza.jpg",
+      "unitPrice": 99
+    }
+  ]
+}

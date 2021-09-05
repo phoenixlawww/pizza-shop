@@ -1,0 +1,76 @@
+{
+  "options": [
+    {
+      "category": "topping",
+      "allowMultiple": true,
+      "subOptions": [
+        {
+          "code": "topping-1",
+          "name": "Pizza Topping #1",
+          "shortName": "Topping #1"
+        },
+        {
+          "code": "topping-2",
+          "name": "Pizza Topping #2",
+          "shortName": "Topping #2"
+        },
+        {
+          "code": "topping-3",
+          "name": "Pizza Topping #3",
+          "shortName": "Topping #3"
+        },
+        {
+          "code": "topping-4",
+          "name": "Pizza Topping #4",
+          "shortName": "Topping #4"
+        },
+        {
+          "code": "topping-5",
+          "name": "Pizza Topping #5",
+          "shortName": "Topping #5"
+        },
+        {
+          "code": "topping-6",
+          "name": "Pizza Topping #6",
+          "shortName": "Topping #6"
+        },
+        {
+          "code": "topping-7",
+          "name": "Pizza Topping #7",
+          "shortName": "Topping #7"
+        },
+        {
+          "code": "topping-8",
+          "name": "Pizza Topping #8",
+          "shortName": "Topping #8"
+        },
+        {
+          "code": "topping-9",
+          "name": "Pizza Topping #9",
+          "shortName": "Topping #9"
+        }
+      ]
+    },
+    {
+      "category": "size",
+      "allowMultiple": false,
+      "subOptions": [
+        {
+          "code": "size-s",
+          "name": "Pizza Size #1",
+          "shortName": "Small"
+        },
+        {
+          "code": "size-m",
+          "name": "Pizza Size #2",
+          "shortName": "Medium"
+        },
+        {
+          "code": "size-l",
+          "name": "Pizza Size #3",
+          "shortName": "Large"
+        }
+      ]
+    }
+  ]
+}

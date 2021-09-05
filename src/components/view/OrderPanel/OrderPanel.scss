@@ -1,0 +1,48 @@
+@use "sass:math";
+
+.order-panel {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  column-gap: 10px;
+  row-gap: 10px;
+
+  > .loading-screen {
+    flex: 3;
+    align-self: center;
+    text-align: center;
+  }
+
+  > .product-list {
+    display: flex;
+    flex: 3;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    column-gap: 10px;
+    row-gap: 10px;
+
+    > .product-card {
+      flex: 1 0 calc((100% - 10px * 2) / 4);
+    }
+  }
+
+  > .cart-wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+
+    > .cart {
+    }
+
+    > .empty-cart-btn {
+      margin: 20px 10px;
+    }
+  }
+}

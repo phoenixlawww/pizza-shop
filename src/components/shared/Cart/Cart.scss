@@ -1,0 +1,99 @@
+@import "~styles/tools";
+
+.s-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: #fafafa;
+  border-radius: 10px;
+
+  > .cart-empty {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  > .cart-items {
+    padding-bottom: 10px;
+
+    .cart-item {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      column-gap: 10px;
+
+      + .cart-item {
+        margin-top: 10px;
+      }
+
+      .item-name {
+        font-weight: 400;
+      }
+
+      .item-options {
+        font-size: 12px;
+      }
+
+      .item-delete-btn {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        background-color: $light-grey;
+        border-radius: 50%;
+
+        &::before,
+        &::after {
+          position: absolute;
+          top: calc((100% - 80%) / 2);
+          left: calc((100% - 2px) / 2);
+          display: block;
+          width: 2px;
+          height: 80%;
+          content: "";
+          background-color: #fff;
+        }
+        &::before {
+          transform: rotateZ(-45deg);
+        }
+        &::after {
+          transform: rotateZ(45deg);
+        }
+      }
+
+      .item-detail-container {
+        flex: 1;
+        text-align: right;
+      }
+
+      .total-item-amount {
+        flex-shrink: 0;
+        min-width: 50px;
+        text-align: right;
+      }
+    }
+  }
+
+  > .cart-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px 0;
+    padding: 5px 0 30px;
+    column-gap: 10px;
+    font-weight: 600;
+    text-align: right;
+    border-top: 1px dashed black;
+
+    > .cart-amount {
+      min-width: 55px;
+    }
+  }
+}

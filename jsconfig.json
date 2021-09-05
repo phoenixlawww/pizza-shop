@@ -9,6 +9,7 @@
       "hoc/*": ["./hoc/*"],
       "hooks/*": ["./hooks/*"],
       "components/*": ["./components/*"],
+      "mock-data/*": ["./mock-data/*"],
       "styles/*": ["./styles/*"],
       "utils/*": ["./utils/*"],
       "storybook/*": ["./storybook/*"]
